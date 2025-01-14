@@ -3,10 +3,13 @@ def area_circle(r):
     return s
 
 def area_square_area(a):
-    S_s = a ** 2
-    return S_s
+    s_s = a ** 2
+    return s_s
 
 def area_trapezoid(a, b, h):
-    S_t = 0.5 * (a + b) * h
-    return S_t
+    s_t = 0.5 * (a + b) * h
+    return s_t
 
+def area_rectangle(a, b):
+    s_r = a * b
+    return s_r
